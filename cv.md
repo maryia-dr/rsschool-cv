@@ -5,7 +5,7 @@
 **Email:** maryia.dreyer@gmail.com
 
 ## About me
-I am Master in Physics currently working as a project manager at the automation company in Norway. My goal for this course is to learn the basics of Java Script and apply them in future projects.
+I am a Master in Physics currently working as a project manager at the automation company in Norway. My goal for this course is to learn the basics of Java Script and apply them in future projects.
 
 ## Skills
 * HTML, CSS.
