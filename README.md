@@ -1,0 +1,1 @@
+https://github.com/maryia-dr/rsschool-cv/blob/9c9bed6b8118924b4d6c9c97040eb8bea28fc2c9/cv.md
