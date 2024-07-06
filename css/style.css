@@ -4,12 +4,22 @@ body {
     font-family: Roboto;
     display: flex;
     gap:80px;
+    justify-content: center;
+    padding: 200px 20px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
 }
 
 .content{
     max-width: 1000px;
     min-width: 340px;
     align-self: center;
+    margin: 0px;
+    gap: 80px;
+    flex-direction: column;
 }
 
 .line {
@@ -28,18 +38,47 @@ body {
 	text-align:center;
 	font-size:80px;
 	letter-spacing:0;
-    line-height: 100%;
+    line-height: 110%;
+    margin: 0px;
+    font-variant: all-small-caps;
 }
 
 .line-h1 {
 	text-align:center;
-	font-size:28px;
+	font-size:26px;
 	letter-spacing:0;
-    line-height: 100%;
+    line-height: 110%;
+    margin: 0px;
 }
 
 .h2 {
 	text-align:left;
 	font-size:36px;
 	letter-spacing:0;
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+    line-height: 140%;
+    font-size: 20px;
+}
+
+.section{
+    gap: 16px;
+}
+
+.lines{
+    gap: 12px;
+}
+
+code{
+    font-size: 20px;
+    color: #256CAD;
+}
+
+.rsschool {
+    display: inline-block;
+    width: 80px;
+    height: 100%;
 }
