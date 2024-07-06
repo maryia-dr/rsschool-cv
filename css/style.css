@@ -1,0 +1,45 @@
+body {
+    background-color: #f0f0f0;
+    color: #121212;
+    font-family: Roboto;
+    display: flex;
+    gap:80px;
+}
+
+.content{
+    max-width: 1000px;
+    min-width: 340px;
+    align-self: center;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.first{
+    gap:40px;
+}
+.name-position{
+    gap:0px
+}
+.h1 {
+	text-align:center;
+	font-size:80px;
+	letter-spacing:0;
+    line-height: 100%;
+}
+
+.line-h1 {
+	text-align:center;
+	font-size:28px;
+	letter-spacing:0;
+    line-height: 100%;
+}
+
+.h2 {
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
