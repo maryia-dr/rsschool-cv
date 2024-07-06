@@ -3,9 +3,11 @@ body {
     color: #121212;
     font-family: Roboto;
     display: flex;
-    gap:80px;
+    gap: 80px;
     justify-content: center;
     padding: 200px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 div{
