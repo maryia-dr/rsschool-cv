@@ -1,0 +1,102 @@
+body {
+    background-color: #f0f0f0;
+    color: #121212;
+    font-family: Roboto;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    max-width: 1000px;
+    min-width: 340px;
+    align-self: center;
+    margin: 0px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.first{
+    gap:40px;
+}
+.name-position{
+    gap:0px
+}
+.h1 {
+	text-align:center;
+	font-size:80px;
+	letter-spacing:0;
+    line-height: 110%;
+    margin: 0px;
+    font-variant: all-small-caps;
+}
+
+.line-h1 {
+	text-align:center;
+	font-size:26px;
+	letter-spacing:0;
+    line-height: 110%;
+    margin: 0px;
+}
+
+.h2 {
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+    line-height: 140%;
+    font-size: 20px;
+}
+
+.section{
+    gap: 16px;
+}
+
+.lines{
+    gap: 12px;
+}
+
+code{
+    font-size: 20px;
+    color: #256CAD;
+}
+
+.rsschool {
+    display: inline-block;
+    width: 80px;
+    height: 100%;
+}
+
+.nav-item {
+    background-color: #476C75;
+    color: #f0f0f0;
+    padding: 8px 12px 10px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 14px;
+    text-transform: capitalize;
+}
