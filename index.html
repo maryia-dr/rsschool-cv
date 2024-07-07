@@ -11,14 +11,14 @@
 </head>
 <body>
     <nav style="display: flex; flex-direction: row; align-self: center; gap: 30px;">
-        <ul style="list-style-type: none; display: flex; flex-direction: row" class="nav-item">
-            <li class="nav-item"><a class="nav-link" href="#contact">Contacts</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
-            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+        <ul style="list-style-type: none; display: flex; flex-direction: row; gap: 30px; padding: 12px 32px;" class="nav-item">
+            <li><a class="nav-link" href="#contact">Contacts</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#code">Code</a></li>
+            <li><a class="nav-link" href="#experience">Experience</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#languages">Languages</a></li>
         </ul>
     </nav>
     <main class="content">
@@ -34,16 +34,15 @@
     
         <div id="contact" class="section">
             <h2 class="h2">Contact Information</h2>
-            <div class="lines">
-                <div class="line">
+            <ul class="lines" style="display: flex; flex-direction: column; padding-inline-start: 0px;">
+                <li class="line" style="list-style-type: none;">
                     <p style="width: 74px; flex-shrink: 0;">Phone:</p>
                     <p>+47 453 55 786</p>
-                </div>
-                <div class="line">
-                    <p style="width: 74px; flex-shrink: 0;">Email:</p>
+                </li>
+                <li class="line"><p style="width: 74px; flex-shrink: 0;">Email:</p>
                     <p>maryia.dreyer@gmail.com</p>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     
         <div id="about" class="section">
@@ -53,16 +52,15 @@
     
         <div id="skills" class="section">
             <h2 class="h2">Skills</h2>
-            <div class="lines">
-                <div class="line">
+            <ul class="lines" style="display: flex; flex-direction: column; padding-inline-start: 0px;">
+                <li class="line" style="list-style-type: none;">
                     <p style="width: 180px; flex-shrink: 0;">Code Languages:</p>
                     <p>HTML, CSS, C/C++ (basic), Python (basic).</p>
-                </div>
-                <div class="line">
-                    <p style="width: 180px; flex-shrink: 0;">Design:</p>
+                </li>
+                <li class="line"><p style="width: 180px; flex-shrink: 0;">Design:</p>
                     <p>Figma, Adobe Illustrator.</p>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     
         <div id="code" class="section">
@@ -130,7 +128,7 @@
                     GitHub
                 </p>
             </a>
-            <p style="font-size: 16px; color:#a0a0a0; flex-shrink: 0; align-self: center; margin-top: 12px;">
+            <p style="font-size: 16px; text-decoration: none; color:#a0a0a0; flex-shrink: 0; align-self: center; margin-top: 12px;">
                 2024
             </p>
         </div>
