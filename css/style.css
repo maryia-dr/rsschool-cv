@@ -21,6 +21,7 @@ div{
     align-self: center;
     margin: 0px;
     gap: 80px;
+    display: flex;
     flex-direction: column;
 }
 
